@@ -11,7 +11,7 @@ rez_set_archive(
     # we can build, using the following hierarchy:
     # "${REZ_REPO_PAYLOAD_DIR}/project_name/archive.what.ever"
     PYOPENGL_URL pyopengl/PyOpenGL-${REZ_BUILD_PROJECT_VERSION}.tar.gz
-    https://files.pythonhosted.org/packages/9c/1d/4544708aaa89f26c97cc09450bb333a23724a320923e74d73e028b3560f9/PyOpenGL-${REZ_BUILD_PROJECT_VERSION}.tar.gz
+    https://files.pythonhosted.org/packages/b8/73/31c8177f3d236e9a5424f7267659c70ccea604dab0585bfcd55828397746/PyOpenGL-${REZ_BUILD_PROJECT_VERSION}.tar.gz
 )
 
 # In the case of a Python pip wheel file, we do not have any archive to extract, so we can just execute our Bash

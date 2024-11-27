@@ -1,6 +1,6 @@
 name = "pyopengl"
 
-version = "3.1.0"
+version = "3.1.5"
 
 authors = [
     "Mike C. Fletcher"
@@ -13,13 +13,11 @@ description = \
 
 requires = [
     "cmake-3+",
-    "pip-19+",
-    "python-2.7+<3"
+    "pip",
+    "python-3"
 ]
 
-variants = [
-    ["platform-linux"]
-]
+variants = [['platform-linux', 'arch-x86_64']]
 
 build_system = "cmake"
 

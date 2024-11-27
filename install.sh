@@ -34,7 +34,7 @@ echo -e "[INSTALL] Installing PyOpenGL-${PYOPENGL_VERSION}..."
 echo -e "\n"
 
 # We copy the necessary files to the install directory.
-pip2 \
+python3.9 -m pip \
     install ${PYOPENGL_URL} \
     --target ${INSTALL_PATH} \
     --upgrade \
